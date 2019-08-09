@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Surf</title>
+  <meta charset="utf-8">
+  <meta name="description" content="O surfe, é uma prática desportiva efetuada na superfície da água, frequentemente considerada parte do grupo de atividades denominadas esportes de aventura.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Surf, Surfistas, Pranchas, Origem">
+  <meta name="author" content="Enolla Bressanim, Jackson Riebe e Natália Coelho">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header id="inicio">
+    <div class="titulo">
+    </div>
+  	<nav class="menu">
+     <ul>
+       <li><a href="index.html">Início</a></li>
+       <li><a href="surfistas.html">Surfistas</a></li>
+       <li><a href="pranchas.html">Pranchas</a></li>
+       <li><a href="mais-informacoes.html" class="active">Mais Informações</a></li>
+     </ul> 
+    </nav>
+	</header>
+  <div id="container" class="container">
+    <h2>Mais Informações</h2>
+    <form>
+      <fieldset>
+        <legend><b>Cadastre-se aqui para receber mais informações:</b></legend>
+        <label>Nome:</label> <input class="fonte" type="text" name="nome" placeholder="Digite seu nome" size="60">
+        <label>E-mail:</label> <input class="fonte" type="email" name="email" placeholder="Digite seu e-mail" size="60">
+        <label>Senha:</label> <input class="fonte" type="password" name="senha" placeholder="Digite sua senha" size="25">
+        <br>
+        <label><b>Selecione o seu sexo:</b></label><br>
+        <input type="radio" name="sexo" value="Feminino">Feminino<br>
+         <input type="radio" name="sexo" value="Masculino">Masculino<br>
+         <input type="radio" name="sexo" value="Não comentar">Prefiro não responder<br>
+         <br>
+         <label><b>Selecione sua idade: </b></label><br>
+        <select name="idade">
+          <option value="Prefiro não responder" selected="selected">Prefiro não responder</option>
+          <option value="10-18" >10-18</option>
+          <option value="18-30" >18-30</option>
+          <option value="30-40" >30-40</option>
+          <option value="Acima de 40" >Acima de 40</option>
+        </select><br>
+        <br>
+         <label><b>Indique a quantidade de notícias mensais: </b></label><br>
+         <input type="number" name="numero-sorte" min="1" value="1">
+        <br><br>
+         <label><b>Qual sua cor favorita: </b></label><br>
+         <input type="color" name="cor">
+        <br><br>
+        <label><b>Indique seu continente:</b></label>
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="América do Norte">América do Norte</option>
+          <option value="América Central">América Central</option>
+          <option value="América do Sul">América do Sul</option>
+          <option value="Europa">Europa</option>
+          <option value="Ásia">Ásia</option>
+          <option value="África">África</option>
+          <option value="Oceanía">Oceanía</option>
+        </datalist><br>
+        <br>
+         <label><b>Preferências de informações:</b></label>
+         <br>
+        <input type="checkbox" name="informacoes">Novidades<br>
+        <input type="checkbox" name="informacoes">Anúncios<br>
+        <input type="checkbox" name="informacoes">Qualquer assunto<br>
+        <br>
+        <label>Comentários</label><br>
+        <textarea name="comentario" cols="70" rows="8" placeholder="Digite aqui seu comentário."></textarea>
+        <br>
+        <button type="reset">Limpar</button> <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+    <p><center>Para nos mandar informações use esse e-mail: <div id="email"><a style="cursor: not-allowed;"  href="mailto:nataliavieira304@gmail.com" rel="nofollow"><code>clique aqui</code></a></div></center></p>
+  </div> <!-- fim do #container -->
+	<footer><h5>Desenvolvido por Enolla Bressanim, Jackson Riebe e Natália Coelho.</h5></footer>
+</body>
+</html>
